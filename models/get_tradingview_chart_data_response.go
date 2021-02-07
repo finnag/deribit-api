@@ -7,5 +7,6 @@ type GetTradingviewChartDataResponse struct {
 	Open   []float64 `json:"open"`
 	Low    []float64 `json:"low"`
 	High   []float64 `json:"high"`
+	Cost   []float64 `json:"cost"`
 	Close  []float64 `json:"close"`
 }
