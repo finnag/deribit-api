@@ -1,4 +1,5 @@
 # deribit-api
+# forked from github.com/frankrap/deribit-api
 Go library for using the Deribit's v2 Websocket API.
 
 V2 API Documentation: https://docs.deribit.com/v2/
@@ -9,8 +10,8 @@ V2 API Documentation: https://docs.deribit.com/v2/
 package main
 
 import (
-	"github.com/frankrap/deribit-api"
-	"github.com/frankrap/deribit-api/models"
+	"github.com/finnag/deribit-api"
+	"github.com/finnag/deribit-api/models"
 	"log"
 )
 
