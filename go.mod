@@ -1,4 +1,4 @@
-module github.com/frankrap/deribit-api
+module github.com/finnag/deribit-api
 
 go 1.13
 
