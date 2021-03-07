@@ -8,7 +8,7 @@ func (c *Client) CancelTransferByID(params *models.CancelTransferByIDParams) (re
 }
 
 func (c *Client) SubmitTransferToSubaccount(params *models.SubmitTransferToSubaccountParams) (result models.Transfer, err error) {
-	err = c.Call("pricate/submit_transfer_to_subaccount", params, &result)
+	err = c.Call("private/submit_transfer_to_subaccount", params, &result)
 	return
 }
 
